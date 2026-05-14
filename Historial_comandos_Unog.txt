@@ -1,0 +1,118 @@
+sudo apt update
+git --version
+clear
+sudo apt install neofetch -y
+clear
+nano ~/.bashrc
+exit
+sudo su
+clear
+sudo su
+clear
+ll
+cd carpeta_compartida/
+ll
+cd ..
+ll
+clear
+ll
+cd repogit/
+ll
+ssh-keygen -t ed25519
+cd /home/
+ll
+cd vagrant/
+ll
+ll /home/vagrant/.ssh/
+cat /home/vagrant/.ssh/id_ed25519.pub 
+cd /home/vagrant/
+ll
+clear
+ll
+cd repogit/
+git clone git@github.com:EdisonUnog/TP1_AySO_Unog_Edison.git
+ll
+cd TP1_AySO_Unog_Edison/
+ll
+cat /etc/os-release 
+man grep
+grep '[A-Z]' HOMEURL /etc/os-release 
+grep '[A-Z]' HOME_URL /etc/os-release 
+cat /etc/os-release 
+sudo cat grep '[A-Z]' HOME_URL /etc/os-release 
+cat grep '[A-Z]' HOME_URL /etc/os-release 
+grep '[A-Z]' HOME_URL /etc/os-release 
+grep '[a-z]' HOME_URL /etc/os-release 
+grep '[a-z]' home_url /etc/os-release 
+grep '[a-z]' home_url /etc/os-release
+cat /etc/os-release 
+clear
+cat /etc/os-release 
+grep -i 'Home_url' /etc/os-release
+grep -i 'Home_url' /etc/os-release > datos_url.txt
+ll
+cat datos_url.txt 
+whoami
+id
+echo "Usuario=$(whoami)" > datos_usuario.txt
+ll
+cat datos_usuario.txt 
+git add .
+git config --global user.name "EdisonUnog"
+git config --global user.email "edisoncmac@gmail.com"
+git commit -m "ADD: agregado 1er ejercicios sobre datos_usuario.txt"
+git status
+git push
+cat /proc/cpuinfo 
+cat grep "model name" /proc/cpuinfo 
+grep "model name" /proc/cpuinfo 
+grep "model name" /proc/cpuinfo | head
+grep "model name" /proc/cpuinfo | head -n1
+ll
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt 
+ll
+cat datos_usuario.txt 
+git add .
+git status
+git commit -m "feat: Añadiendo información de CPU"
+git status
+git push
+cat <<EOF>> README.md 
+Alumno: Edison Uñog
+División: 114
+Turno: Mañana
+EOF
+
+git add README.md datos_usuario.txt 
+git commit -m "ADD: Añadiendo Readme y datos de usuario"
+git status
+git push
+cd
+ll
+pwd
+cd ..
+ll
+cd
+pwd
+mkdir -p materia{1,2}/uni{1,2,3}
+ll
+tree materia1
+sudo apt install treey
+sudo apt install tree
+ll
+cd repogit/
+cd TP1_AySO_Unog_Edison/
+echo "mkdir -p materia{1,2}/uni{1,2,3}" > script.sh
+ll
+sudo chmod +x script.sh 
+ll
+git add .
+git commit -m "ADD: Añadiendo script"
+git push
+cd
+ll
+tree materia1
+tree materia2
+cd repogit/TP1_AySO_Unog_Edison/
+histoy -a
+history -a
