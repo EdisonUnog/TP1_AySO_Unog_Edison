@@ -33,7 +33,6 @@ cd repogit/
 git clone git@github.com:EdisonUnog/TP1_AySO_Unog_Edison.git
 ll
 cd TP1_AySO_Unog_Edison/
-ll
 cat /etc/os-release 
 man grep
 grep '[A-Z]' HOMEURL /etc/os-release 
